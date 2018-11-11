@@ -14,8 +14,6 @@
 		}
 		elseif ($_POST['act'] === 'changetable') {
 			
-			var_dump($_POST);
-
 			if (isset($_POST['fieldact'])) {
 
 				if ($_POST['fieldact'] === 'change') {
